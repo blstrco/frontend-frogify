@@ -7,7 +7,7 @@ import { VideoIcon } from "../icons/Video";
 import { EditorButton } from "./Button";
 import { EditorSectionTitle } from "./SectionTitle";
 
-export function EditorContent() {
+export function GlobalEditorContent() {
   return (
     <>
       {/* Device Toggles */}
