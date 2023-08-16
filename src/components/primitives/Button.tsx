@@ -1,13 +1,15 @@
 import clsx from "clsx";
-import { PropsWithChildren } from "react";
+import { MouseEvent, PropsWithChildren } from "react";
 
-export function EditorButton({
+export function Button({
   children,
   className,
   active = false,
+  onClick,
 }: PropsWithChildren<{
   className?: string;
   active?: boolean;
+  onClick?: (e: MouseEvent) => void;
 }>) {
   return (
     <button
@@ -17,6 +19,7 @@ export function EditorButton({
         active && "bg-[#000] editor-button--active",
         className
       )}
+      onClick={onClick}
     >
       {children}
     </button>

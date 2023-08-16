@@ -2,7 +2,7 @@ import { PropsWithChildren } from "react";
 import clsx from "clsx";
 import { PencilIcon } from "../icons/Pencil";
 import { TreeIcon } from "../icons/Tree";
-import { EditorTab } from "../../layouts/Base";
+import { EditorTab } from "./Editor";
 
 function ModeButton({
   children,

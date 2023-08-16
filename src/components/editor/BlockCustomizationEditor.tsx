@@ -1,9 +1,9 @@
 import { EditorSectionTitle } from "./SectionTitle";
 
-export function EditorTab() {
+export function BlockCustomizationEditor() {
   return (
     <div className="px-[44px] pt-[44px]">
-      <EditorSectionTitle title="Editor" />
+      <EditorSectionTitle title="Customize Block" />
     </div>
   );
 }
